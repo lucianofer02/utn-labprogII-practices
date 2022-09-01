@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 1</title>
+</head>
+<body>
+    <h1 align="center">MI PRIMER PAGINA WEB</h1>
+    <h2 align="center">Presentación</h2>
+    <p align="center"> Me llamo Luciano, soy un estudiante de la Tecnicatura en Programación.</p> 
+    <p align="center">Me gusta Central, jugar a Kayak Polo, la Formula 1, entrenar, juntarme con mis amigos y jugar a la computadora.</p>
+    <h2>¿Donde paso mi tiempo?</h2>
+    <ol>
+        <a href="https://netflix.com"><img src="./img/netflix.png" title="netflix"></a>
+        <a href="https://twitter.com/home"><img src="./img/twitter.png" title="Twitter"></a>
+        <a href="https://youtube.com"><img src="./img/youtube.png" title="Youtube"></a>
+        <a href="https://instagram.com"><img src="./img/instagram.png" title="Instagram"></a>
+    </ol>
+
+    <table> 
+        <caption><strong>ALGUNOS PILOTOS DE LA FORMULA 1</strong> </caption>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Nacionalidad</th>
+                <th>Escuderia</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Max</td>
+                <td>Verstappen</td>
+                <td>Holanda</td>
+                <td>Red Bull</td>
+            </tr>
+            <tr>
+                <td>Checo</td>
+                <td>Perez</td>
+                <td>Mexico</td>
+                <td>Red Bull</td>
+            </tr>
+            <tr>
+                <td>George</td>
+                <td>Russel</td>
+                <td>Gran Betraña</td>
+                <td>Mercedes</td>
+            </tr>
+        </tbody>
+    </table>
+    <h1>Formulario de inicio de sesion</h1>
+    <p>Para iniciar sesion por favor ingrese su nombre de nombre y apellido.</p>
+    <form action="/accion.php">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" name="apellido" id="apellido">
+        <input type="submit" value="Guardar">
+        <input type="checkbox" value="Recordar datos">
+    </form>
+</body>
+</html>
